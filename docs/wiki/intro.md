@@ -7,7 +7,7 @@ sidebar_label: 资源导航
 ## 博客
 
 - 酷壳: [https://coolshell.cn](https://coolshell.cn)
-- 阮一峰: [ruanyifeng.com/blog/](ruanyifeng.com/blog/)
+- 阮一峰: [ruanyifeng.com/blog/](https://ruanyifeng.com/blog/)
 - 廖雪峰: [https://www.liaoxuefeng.com/](https://www.liaoxuefeng.com/)
 - Vamei: [http://www.cnblogs.com/vamei/](http://www.cnblogs.com/vamei/)
 - 小胡子哥: [http://www.barretlee.com/entry/](http://www.barretlee.com/entry/)
@@ -86,6 +86,6 @@ sidebar_label: 资源导航
 ## 工具
 
 - 在线学习和测试正则表达式的工具: [regexr](https://regexr.com)
-- 在线绘图工具: [ProcessOn](www.processon.com)
+- 在线绘图工具: [ProcessOn](https://www.processon.com)
 
 
