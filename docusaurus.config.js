@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   title: '充电Up',
   tagline: '学习, 充电, 后端, golang, python',
@@ -75,10 +77,6 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Gaodb Built with Docusaurus.`,
     },
-    googleAnalytics: {
-      trackingID: 'UA-87715817-1',
-      anonymizeIP: true,
-    },
   },
   presets: [
     [
@@ -99,5 +97,8 @@ module.exports = {
         },
       },
     ],
+  ],
+  plugins: [
+    path.resolve(__dirname, "./src/plugin/plugin-baidu-analytics"),
   ],
 };
