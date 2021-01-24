@@ -1281,14 +1281,14 @@
     "@docusaurus/utils" "2.0.0-alpha.70"
     react-json-view "^1.19.1"
 
-"@docusaurus/plugin-google-analytics@2.0.0-alpha.70":
+"@docusaurus/plugin-google-analytics@2.0.0-alpha.70", "@docusaurus/plugin-google-analytics@^2.0.0-alpha.70":
   version "2.0.0-alpha.70"
   resolved "https://registry.npm.taobao.org/@docusaurus/plugin-google-analytics/download/@docusaurus/plugin-google-analytics-2.0.0-alpha.70.tgz#9476314353d585716cbdd408319ff30bdbda4f87"
   integrity sha1-lHYxQ1PVhXFsvdQIMZ/zC9vaT4c=
   dependencies:
     "@docusaurus/core" "2.0.0-alpha.70"
 
-"@docusaurus/plugin-google-gtag@2.0.0-alpha.70":
+"@docusaurus/plugin-google-gtag@2.0.0-alpha.70", "@docusaurus/plugin-google-gtag@^2.0.0-alpha.70":
   version "2.0.0-alpha.70"
   resolved "https://registry.npm.taobao.org/@docusaurus/plugin-google-gtag/download/@docusaurus/plugin-google-gtag-2.0.0-alpha.70.tgz#a90e54830a6f95a83cf51b82e7e6adcf6a699dc1"
   integrity sha1-qQ5Ugwpvlag89RuC5+atz2ppncE=

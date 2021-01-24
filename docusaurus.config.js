@@ -8,6 +8,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'gdbo', // Usually your GitHub org/user name.
   projectName: 'gaodb.me', // Usually your repo name.
+  plugins: ['@docusaurus/plugin-google-analytics', '@docusaurus/plugin-google-gtag'],
   themeConfig: {
     navbar: {
       title: '充电Up',
@@ -74,6 +75,14 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Gaodb Built with Docusaurus.`,
+    },
+    googleAnalytics: {
+      trackingID: 'UA-87715817-1',
+      anonymizeIP: true,
+    },
+    gtag: {
+      trackingID: 'UA-87715817-1',
+      anonymizeIP: true,
     },
   },
   presets: [
