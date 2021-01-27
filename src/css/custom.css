@@ -75,6 +75,7 @@ html[data-theme="dark"] {
 
 .post__border {
   border-bottom: 1px solid #efefef;
+  margin-bottom: 1.2em;
 }
 
 .post__date {
