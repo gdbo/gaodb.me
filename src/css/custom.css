@@ -15,16 +15,55 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208); */
   
-  --ifm-color-primary: #3578e5;
-  --ifm-color-primary-dark: #1d68e1;
-  --ifm-color-primary-darker: #1b62d4;
-  --ifm-color-primary-darkest: #1751af;
-  --ifm-color-primary-light: #4e89e8;
-  --ifm-color-primary-lighter: #5a91ea;
-  --ifm-color-primary-lightest: #80aaef;
+  --ifm-color-primary: #006dfe;
+  --ifm-color-primary-dark: #119cc5;
+  --ifm-color-primary-darker: #05879d;
+  --ifm-color-primary-darkest: #007a87;
+  --ifm-color-primary-light: #6dc8f2;
+  --ifm-color-primary-lighter: #c6ebfc;
+  --ifm-color-primary-lightest: #f2fbff;
   --ifm-code-font-size: 95%;
   --ifm-font-family-base: "Raleway", "Yuanti SC", "Yuanti SC Regular", "Youyuan",
-    "You Yuan", "幼圆", "PingFang SC", "Microsoft Yahei", sans-serif;
+  "You Yuan", "幼圆", "PingFang SC", "Microsoft Yahei", sans-serif;
+
+    /* --ifm-navbar-shadow: 0px 4px 28px rgba(0, 0, 0, 0.1); */
+    --ifm-toc-border-color: #f7f7f7;
+    --text-color: #57616f;
+    --ifm-heading-color: hsl(200deg, 20%, 20%);
+}
+
+html {
+  --post-title-color: #2f5c85;
+  --post-pub-date-color: #8c8c8c;
+  --divider-color: #ebebeb;
+}
+
+html[data-theme="dark"] {
+  --post-title-color: white;
+  --post-pub-date-color: var(--ifm-color-gray-100);
+  --divider-color: #353535;
+  --ifm-toc-border-color: #313131;
+  --ifm-heading-color: #ffffff;
+}
+
+.react-icons {
+  vertical-align: middle;
+}
+
+.navbar {
+  box-shadow: none;
+}
+
+.navbar__logo {
+  border: 2px solid black;
+  border-radius: 2em;
+}
+
+.navbar__link,
+.dropdown,
+.navbar__title,
+.menu {
+  font-weight: 400;
 }
 
 .docusaurus-highlight-code-line {
@@ -32,4 +71,64 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+.post__border {
+  border-bottom: 1px solid #efefef;
+}
+
+.post__date {
+  background: url("/icons/circle.svg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 9.75em;
+  height: 9.75em;
+  margin-top: 1.6em;
+  font-family: "Raleway";
+}
+
+.post__day {
+  font-size: 4.75em;
+  line-height: 1em;
+  font-weight: 900;
+}
+
+.post__year_month {
+  align-self: start;
+  color: var(--post-pub-date-color);
+}
+
+
+.tags__icon {
+  vertical-align: middle;
+  font-size: 1.3em;
+  margin-right: 0.5em;
+  color: #2f5c85;
+}
+
+/* post style */
+.post__tags {
+  background: #3d94fa;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+.post__tags:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .post__tags {
+  color: #d4e8fa;
+  background: #0179fa77;
+}
+
+.footer {
+  margin-top: 4em;
 }

@@ -10,6 +10,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'gdbo', // Usually your GitHub org/user name.
   projectName: 'gaodb.me', // Usually your repo name.
+  stylesheets: ["https://fonts.font.im/css?family=Raleway:500,700"],
   themeConfig: {
     navbar: {
       title: '充电Up',
