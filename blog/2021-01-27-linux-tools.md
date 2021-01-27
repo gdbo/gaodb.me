@@ -26,7 +26,7 @@ ZEAL 是一款离线文档浏览器,其灵感来自 OS X平台上的 Dash，目�
 
 **安装**
 
-到[zeal官网下载](zealdocs.org/download.html)，按照对应系统的方式安装
+到[zeal官网下载](https://zealdocs.org/download.html)，按照对应系统的方式安装
 
 我用的是linux mint, 也就是按照debian/ubuntu系发行版的安装方法安装：
 
